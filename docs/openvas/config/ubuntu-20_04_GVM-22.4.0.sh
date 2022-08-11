@@ -297,7 +297,7 @@ sudo visudo
 %gvm ALL = NOPASSWD: /usr/local/sbin/openvas
 
 # Start PostgreSQL
-sudo systemctl start postgresql@12-main.service
+sudo systemctl start postgresql@14-main.service
 
 # Setup PostgreSQL
 sudo -u postgres bash
